@@ -1,3 +1,6 @@
+// Copyright (c) 2021 andreysyrbuwindows
+// Licensed under the MIT license
+
 #include "game.h"
 
 const int kScreenWidth = 500;

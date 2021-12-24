@@ -1,3 +1,6 @@
+// Copyright (c) 2021 andreysyrbuwindows
+// Licensed under the MIT license
+
 #ifndef GAME_GAME_H_
 #define GAME_GAME_H_
 
@@ -6,7 +9,13 @@
 
 #include "raylib.h"
 
+#include "player.h"
+
+extern const int kScreenWidth;
+extern const int kScreenHeight;
+
 typedef struct {
+  Player *player;
 } Game;
 
 Game *CreateGame(void);
